@@ -1,0 +1,70 @@
+{
+  "exercises": [
+    {
+      "id": "enbensknaboj",
+      "swedishName": "Enbensknäböj",
+      "category": "Kontroll",
+      "shortDescription": "Kontroll, benstyrka och balans.",
+      "coachingTips": [
+        "Håll foten stabil.",
+        "Knät följer fotens riktning.",
+        "Behåll neutral bål."
+      ],
+      "videoUrl": "https://youtu.be/vRghHpCM-w8?si=nz_zmk0ATUywsP0D",
+      "sourceLabel": "Källa: Svenska Gymnastikförbundet",
+      "levels": [
+        { "id": "1", "label": "Nivå 1" },
+        { "id": "2", "label": "Nivå 2" },
+        { "id": "3", "label": "Nivå 3" },
+        { "id": "4", "label": "Nivå 4" },
+        { "id": "5", "label": "Nivå 5" }
+      ],
+      "defaultLogType": "reps",
+      "defaultRepsOrTime": 10
+    },
+    {
+      "id": "handstaende",
+      "swedishName": "Handstående",
+      "category": "Kontroll",
+      "shortDescription": "Axelstabilitet och kroppskontroll upp och ner.",
+      "coachingTips": [
+        "Tryck aktivt i golvet.",
+        "Håll kroppen spänd som en planka.",
+        "Titta mot händerna."
+      ],
+      "videoUrl": "https://youtu.be/vRghHpCM-w8?si=nz_zmk0ATUywsP0D",
+      "sourceLabel": "Källa: Svenska Gymnastikförbundet",
+      "levels": [
+        { "id": "1", "label": "Nivå 1" },
+        { "id": "2", "label": "Nivå 2" },
+        { "id": "3", "label": "Nivå 3" },
+        { "id": "4", "label": "Nivå 4" },
+        { "id": "5", "label": "Nivå 5" }
+      ],
+      "defaultLogType": "time",
+      "defaultRepsOrTime": 30
+    },
+    {
+      "id": "bro",
+      "swedishName": "Bro",
+      "category": "Flexibilitet",
+      "shortDescription": "Ryggflexibilitet och axelöppning.",
+      "coachingTips": [
+        "Tryck fötterna och händerna i golvet.",
+        "Håll knäna i linje med höfterna.",
+        "Andas jämnt."
+      ],
+      "videoUrl": "https://youtu.be/vRghHpCM-w8?si=nz_zmk0ATUywsP0D",
+      "sourceLabel": "Källa: Svenska Gymnastikförbundet",
+      "levels": [
+        { "id": "1", "label": "Nivå 1" },
+        { "id": "2", "label": "Nivå 2" },
+        { "id": "3", "label": "Nivå 3" },
+        { "id": "4", "label": "Nivå 4" },
+        { "id": "5", "label": "Nivå 5" }
+      ],
+      "defaultLogType": "time",
+      "defaultRepsOrTime": 20
+    }
+  ]
+}

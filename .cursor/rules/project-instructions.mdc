@@ -1,0 +1,104 @@
+---
+description: BAS Logg project instructions — architecture, constraints, build order, and quality bar
+alwaysApply: true
+---
+
+# Project instructions for Cursor
+
+Build the app in phases, keeping the codebase simple and fast.
+
+## Hard constraints
+
+- Local-first only.
+- One gymnast per device.
+- Swedish UI.
+- Performance before visual flourish.
+- Use IndexedDB for data persistence.
+- Deployable to GitHub Pages.
+- No auth, no backend, no sync.
+- Keep dependencies light.
+
+## App structure
+
+Use a simple, readable folder structure. Suggested files:
+
+- `src/data/bas-exercises.json`
+- `src/lib/storage/`
+- `src/lib/types/`
+- `src/components/`
+- `src/routes/` or `src/pages/`
+
+## Screen structure
+
+- Oversikt
+- Pass
+- Historik
+- Installningar
+
+## User flow
+
+1. First launch asks for gymnast name and theme.
+2. Oversikt shows status and links to Historik.
+3. Pass shows BAS exercises from JSON.
+4. Each exercise has info, video, level selection, and logging.
+5. Historik shows saved sessions.
+6. Installningar edits local preferences.
+
+## Exercise behaviour
+
+- Use JSON as the source of truth for exercises.
+- Persist last-used level per exercise.
+- Log reps, time, sets, and notes only when relevant.
+- Keep session records small and reliable.
+
+## UI behaviour
+
+- Large buttons.
+- Bottom navigation.
+- Compact info modal or drawer.
+- Minimal animations.
+- Accessible markup.
+- Fast startup.
+
+## Data requirements
+
+Use this sample content style in the JSON seed:
+
+- short Swedish descriptions
+- short coaching cues
+- clear level labels
+- a source label referencing Svenska Gymnastikforbundet
+- YouTube video URL per exercise
+
+## Initial seeded exercise
+
+- Enbensknaboj
+- category: Kontroll
+- shortDescription: Kontroll, benstyrka och balans.
+- coachingTips:
+  - Hall foten stabil.
+  - Knat foljer fotens riktning.
+  - Behall neutral baal.
+- videoUrl: https://youtu.be/vRghHpCM-w8?si=nz_zmk0ATUywsP0D
+- sourceLabel: Kalla: Svenska Gymnastikforbundet
+- start with one real sample exercise, then make the JSON structure easy to extend to the rest of BAS later.
+
+## Build order
+
+1. Data model and storage layer
+2. Navigation shell
+3. Oversikt
+4. Pass logging
+5. Exercise info modal and video
+6. Historik
+7. Installningar
+8. PWA and offline polish
+
+## Quality bar
+
+- No brittle hacks.
+- No unnecessary libraries.
+- No overengineering.
+- Clean TypeScript.
+- Clear state handling.
+- Resilient local data migration path.

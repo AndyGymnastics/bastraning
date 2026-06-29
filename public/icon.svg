@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="BAS Logg">
+  <rect width="512" height="512" rx="96" fill="#1a1a2e"/>
+  <circle cx="256" cy="256" r="140" fill="#e94560"/>
+  <path d="M256 140 L320 300 L192 300 Z" fill="#ffffff"/>
+</svg>
